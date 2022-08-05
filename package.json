@@ -1,0 +1,29 @@
+{
+  "name": "websockets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/icanq/websockets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icanq/websockets/issues"
+  },
+  "homepage": "https://github.com/icanq/websockets#readme",
+  "description": "",
+   "dependencies": {
+    "nanobuffer": "^3.0.0",
+    "serve-handler": "^6.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
